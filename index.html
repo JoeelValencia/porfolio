@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joel Valencia | Ingeniero Industrial & Data Analyst</title>
+  <meta name="description" content="Portafolio profesional de Joel Valencia — Ingeniero Industrial, Analista de Procesos, Mejora Continua y Data Analyst en Buenos Aires, Argentina." />
+  <meta property="og:title" content="Joel Valencia | Portfolio" />
+  <meta property="og:description" content="Ingeniero Industrial | Analista de Procesos & Mejora Continua | Data Analyst" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── CURSOR GLOW ── -->
+  <div id="cursor-glow"></div>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">JV<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about" id="nav-about">Sobre mí</a></li>
+        <li><a href="#skills" id="nav-skills">Skills</a></li>
+        <li><a href="#experience" id="nav-experience">Experiencia</a></li>
+        <li><a href="#education" id="nav-education">Educación</a></li>
+        <li><a href="#certifications" id="nav-certs">Certificaciones</a></li>
+        <li><a href="#contact" id="nav-contact">Contacto</a></li>
+      </ul>
+      <a href="mailto:Valencia.joel@gmail.com" class="btn-nav" id="btn-hire">Contrátame</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#education">Educación</a>
+      <a href="#certifications">Certificaciones</a>
+      <a href="#contact">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponible para nuevas oportunidades
+      </div>
+      <h1 class="hero-name">Joel<br /><span class="gradient-text">Valencia</span></h1>
+      <div class="hero-roles">
+        <span id="typed-role"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc">
+        Ingeniero Industrial con experiencia en <strong>análisis de procesos</strong>, gestión de proyectos y transformación digital. 
+        Especializado en <strong>Power BI, Python, SQL</strong> y metodologías de mejora continua.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn-primary" id="btn-contact-hero">
+          <i class="fas fa-paper-plane"></i> Contactar
+        </a>
+        <a href="#experience" class="btn-ghost" id="btn-experience-hero">
+          Ver experiencia <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">4+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Herramientas de BI</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Certificaciones</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="profile-ring">
+        <div class="profile-avatar">
+          <span>JV</span>
+        </div>
+        <div class="ring-orbit ring-orbit-1">
+          <div class="orbit-icon"><i class="fas fa-chart-bar"></i></div>
+        </div>
+        <div class="ring-orbit ring-orbit-2">
+          <div class="orbit-icon"><i class="fab fa-python"></i></div>
+        </div>
+        <div class="ring-orbit ring-orbit-3">
+          <div class="orbit-icon"><i class="fas fa-database"></i></div>
+        </div>
+      </div>
+      <div class="floating-card card-1">
+        <i class="fas fa-chart-line"></i>
+        <span>Power BI KPIs</span>
+      </div>
+      <div class="floating-card card-2">
+        <i class="fas fa-cogs"></i>
+        <span>Mejora Continua</span>
+      </div>
+      <div class="floating-card card-3">
+        <i class="fas fa-brain"></i>
+        <span>IA & LLMs</span>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" id="scroll-down">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 // Sobre mí</span>
+        <h2 class="section-title">Perfil <span class="gradient-text">Profesional</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Soy Ingeniero Industrial egresado de la <strong>UTN</strong>, con sólida experiencia en 
+            <strong>análisis de procesos, gestión de proyectos y transformación digital</strong>. 
+            He trabajado en entornos de alta demanda donde la toma de decisiones basada en datos 
+            es clave para el éxito operativo.
+          </p>
+          <p>
+            En <strong>Mail Américas</strong> desarrollé dashboards de KPIs en Power BI y optimicé 
+            flujos operativos aplicando Kaizen/Kanban. Actualmente participo en el grupo 
+            <strong>GIAR UTN</strong> de investigación en IA, implementando agentes LLM para 
+            automatizar procesos y generar impacto medible.
+          </p>
+          <p>
+            Me caracterizo por la <strong>autogestión, orientación a resultados</strong> y la 
+            capacidad de comunicar insights complejos de forma clara a stakeholders de distintos niveles.
+          </p>
+          <div class="about-tags">
+            <span class="tag">📍 Buenos Aires, Argentina</span>
+            <span class="tag">🏫 UTN — Ingeniería Industrial</span>
+            <span class="tag">🌐 Inglés C1</span>
+            <span class="tag">🤖 IA Generativa</span>
+          </div>
+          <div class="about-links">
+            <a href="mailto:Valencia.joel@gmail.com" class="social-link" id="link-email" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://linkedin.com/in/valenciajoel" target="_blank" class="social-link" id="link-linkedin" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/JoeelValencia" target="_blank" class="social-link" id="link-github" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="about-card-wrap">
+          <div class="about-info-card glass-card">
+            <div class="info-row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="info-label">Ubicación</span>
+                <span class="info-value">Buenos Aires, Argentina</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="info-label">Teléfono</span>
+                <span class="info-value">+54 112 6464 944</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">Valencia.joel@gmail.com</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <span class="info-label">LinkedIn</span>
+                <span class="info-value">linkedin.com/in/valenciajoel</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="info-label">Título</span>
+                <span class="info-value">Ingeniero Industrial — UTN (2025)</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-language"></i>
+              <div>
+                <span class="info-label">Idiomas</span>
+                <span class="info-value">Español C2 · Inglés C1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 // Habilidades</span>
+        <h2 class="section-title">Stack <span class="gradient-text">Técnico</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category glass-card" id="skill-bi">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap" style="--icon-color: #f7931a;">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h3>Análisis & BI</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Power BI (Dashboards KPI)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Excel Avanzado (Power Query, Macros)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQL / MySQL</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Python (Pandas, NumPy)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:83%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-metodologias">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap" style="--icon-color: #10b981;">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3>Metodologías</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Mejora Continua (Kaizen)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Lean Management</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Kanban / Gestión de Proyectos</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Análisis y Optimización de Procesos</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-reportes">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap" style="--icon-color: #6366f1;">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3>Reporting</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Reportes ejecutivos & presentaciones</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:95%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Microsoft Office 365</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:93%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Microsoft Teams</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-otras">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap" style="--icon-color: #ec4899;">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>Otras</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">IA Generativa / LLMs</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Google Analytics</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Machine Learning (Scikit-learn)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Supply Chain & Logística</span>
+              <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tech Pills -->
+      <div class="tech-pills-wrap">
+        <div class="tech-pills" id="tech-pills">
+          <span class="tech-pill"><i class="fas fa-chart-bar"></i> Power BI</span>
+          <span class="tech-pill"><i class="fab fa-python"></i> Python</span>
+          <span class="tech-pill"><i class="fas fa-database"></i> SQL</span>
+          <span class="tech-pill"><i class="fas fa-file-excel"></i> Excel</span>
+          <span class="tech-pill"><i class="fas fa-robot"></i> LLMs</span>
+          <span class="tech-pill"><i class="fas fa-cogs"></i> Kaizen</span>
+          <span class="tech-pill"><i class="fas fa-tasks"></i> Kanban</span>
+          <span class="tech-pill"><i class="fas fa-brain"></i> Machine Learning</span>
+          <span class="tech-pill"><i class="fas fa-chart-pie"></i> Google Analytics</span>
+          <span class="tech-pill"><i class="fas fa-project-diagram"></i> Lean</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 // Experiencia</span>
+        <h2 class="section-title">Trayectoria <span class="gradient-text">Profesional</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item" id="exp-giar">
+          <div class="timeline-marker">
+            <div class="tl-dot active-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Proyecto I+D LLMs & IA</h3>
+                <p class="tl-company">
+                  <i class="fas fa-building"></i>
+                  GIAR UTN — Grupo de Investigación en IA | Buenos Aires, Argentina
+                </p>
+              </div>
+              <div class="tl-meta">
+                <span class="tl-date"><i class="fas fa-calendar"></i> Mar 2026 – Actualidad</span>
+                <span class="tl-badge active-badge">Activo</span>
+                <span class="tl-type">Part-time · Híbrido</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Analicé procesos operativos en educación a distancia e identifiqué oportunidades de mejora, diseñando soluciones escalables con IA generativa.</li>
+              <li>Coordiné la comunicación entre áreas académicas y el equipo técnico, asegurando alineación y avance continuo en el proyecto de transformación digital.</li>
+              <li>Implementé agentes de IA (LLMs) para automatizar flujos administrativos, reduciendo la carga operativa y mejorando la experiencia del usuario final.</li>
+              <li>Generé informes de seguimiento con análisis cuantitativo de impacto y métricas de adopción, presentados a referentes del área.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tl-tag">LLMs</span>
+              <span class="tl-tag">IA Generativa</span>
+              <span class="tl-tag">Transformación Digital</span>
+              <span class="tl-tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" id="exp-mail">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Analista de Operaciones y Procesos — Última Milla</h3>
+                <p class="tl-company">
+                  <i class="fas fa-building"></i>
+                  Mail Américas | Buenos Aires, Argentina
+                </p>
+              </div>
+              <div class="tl-meta">
+                <span class="tl-date"><i class="fas fa-calendar"></i> May 2022 – Sep. 2024</span>
+                <span class="tl-duration">2 años 5 meses</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li><strong>Desarrollé y mantuve dashboards de KPIs en Power BI</strong> y reportes ejecutivos en Excel avanzado, facilitando la toma de decisiones estratégicas para el equipo gerencial.</li>
+              <li>Analicé grandes volúmenes de datos con Python y SQL para identificar oportunidades de mejora en los procesos de distribución de última milla.</li>
+              <li>Apliqué metodologías Kaizen y Kanban para la optimización de flujos de trabajo, elevando la trazabilidad y eficiencia operativa.</li>
+              <li>Consolidé información de múltiples fuentes y elaboré reportes de seguimiento, coordinando comunicaciones con socios logísticos de distintas regiones.</li>
+              <li>Coordiné procesos de liberación en aduana y gestión de logística inversa, reduciendo tiempos de resolución mediante la sistematización de procedimientos.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tl-tag">Power BI</span>
+              <span class="tl-tag">Python</span>
+              <span class="tl-tag">SQL</span>
+              <span class="tl-tag">Kaizen</span>
+              <span class="tl-tag">Kanban</span>
+              <span class="tl-tag">Logística</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" id="exp-cnc">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Técnico CNC — Producción Industrial</h3>
+                <p class="tl-company">
+                  <i class="fas fa-building"></i>
+                  Válvulas Worcester S.A. | Buenos Aires, Argentina
+                </p>
+              </div>
+              <div class="tl-meta">
+                <span class="tl-date"><i class="fas fa-calendar"></i> Oct 2021 – May 2022</span>
+                <span class="tl-duration">8 meses</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Optimicé tiempos de producción y uso de recursos mediante análisis de procesos, coordinando con el equipo de ingeniería para mejora continua y resolución de desvíos.</li>
+              <li>Controlé procesos productivos completos, verificando tolerancias y asegurando el cumplimiento de estándares de calidad industrial.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tl-tag">Manufactura</span>
+              <span class="tl-tag">CNC</span>
+              <span class="tl-tag">Calidad</span>
+              <span class="tl-tag">Mejora Continua</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 // Educación</span>
+        <h2 class="section-title">Formación <span class="gradient-text">Académica</span></h2>
+      </div>
+      <div class="edu-grid">
+
+        <div class="edu-card glass-card" id="edu-utn">
+          <div class="edu-icon-wrap" style="--edu-color: #6366f1;">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="edu-body">
+            <h3>Ingeniería Industrial</h3>
+            <p class="edu-institution">Universidad Tecnológica Nacional (UTN)</p>
+            <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</p>
+            <span class="edu-badge">Graduado — Agosto 2025</span>
+          </div>
+        </div>
+
+        <div class="edu-card glass-card" id="edu-tecnico">
+          <div class="edu-icon-wrap" style="--edu-color: #10b981;">
+            <i class="fas fa-tools"></i>
+          </div>
+          <div class="edu-body">
+            <h3>Técnico Electromecánico</h3>
+            <p class="edu-institution">Escuela Técnica N°34 Martín Hermitte</p>
+            <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</p>
+            <span class="edu-badge secondary">Título técnico</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATIONS ── -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 // Certificaciones</span>
+        <h2 class="section-title">Credenciales <span class="gradient-text">Profesionales</span></h2>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card glass-card" id="cert-python">
+          <div class="cert-icon" style="--cert-color: #3776ab;">
+            <i class="fab fa-python"></i>
+          </div>
+          <div class="cert-body">
+            <h4>Python Programming</h4>
+            <p class="cert-issuer">Cisco Networking Academy</p>
+            <span class="cert-date"><i class="fas fa-calendar-check"></i> Nov – Dic 2025</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-analytics">
+          <div class="cert-icon" style="--cert-color: #f59e0b;">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <div class="cert-body">
+            <h4>Data Analytics</h4>
+            <p class="cert-issuer">UTN — Universidad Tecnológica Nacional</p>
+            <span class="cert-date"><i class="fas fa-calendar-check"></i> Ago – Dic 2024</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-datascience">
+          <div class="cert-icon" style="--cert-color: #10b981;">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="cert-body">
+            <h4>Data Science</h4>
+            <p class="cert-issuer">Udemy</p>
+            <span class="cert-date"><i class="fas fa-calendar-check"></i> Mayo 2023</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-powerbi">
+          <div class="cert-icon" style="--cert-color: #f7931a;">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <div class="cert-body">
+            <h4>Power BI — Business Intelligence</h4>
+            <p class="cert-issuer">Udemy</p>
+            <span class="cert-date"><i class="fas fa-calendar-check"></i> Agosto 2021</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">06 // Contacto</span>
+        <h2 class="section-title">¡Hablemos <span class="gradient-text">juntos!</span></h2>
+        <p class="section-subtitle">¿Tenés un proyecto, oportunidad o idea? Estoy disponible para charlar.</p>
+      </div>
+
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <div class="contact-card glass-card" id="contact-email">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:Valencia.joel@gmail.com" class="contact-value">Valencia.joel@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card glass-card" id="contact-phone">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-label">Teléfono</p>
+              <a href="tel:+5411264649444" class="contact-value">+54 112 6464 944</a>
+            </div>
+          </div>
+          <div class="contact-card glass-card" id="contact-linkedin">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <a href="https://linkedin.com/in/valenciajoel" target="_blank" class="contact-value">linkedin.com/in/valenciajoel</a>
+            </div>
+          </div>
+          <div class="contact-card glass-card" id="contact-location">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-label">Ubicación</p>
+              <span class="contact-value">Buenos Aires, Argentina</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card" id="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="form-name">Nombre</label>
+            <input type="text" id="form-name" name="name" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email</label>
+            <input type="email" id="form-email" name="email" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="form-subject">Asunto</label>
+            <input type="text" id="form-subject" name="subject" placeholder="¿En qué puedo ayudarte?" />
+          </div>
+          <div class="form-group">
+            <label for="form-message">Mensaje</label>
+            <textarea id="form-message" name="message" rows="5" placeholder="Contame de tu proyecto u oportunidad..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary w-full" id="btn-submit">
+            <i class="fas fa-paper-plane"></i> Enviar mensaje
+          </button>
+          <div class="form-success" id="form-success">
+            <i class="fas fa-check-circle"></i> ¡Mensaje enviado! Te respondo pronto.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">JV<span class="dot">.</span></div>
+      <p class="footer-copy">© 2025 Joel Valencia. Todos los derechos reservados.</p>
+      <div class="footer-socials">
+        <a href="mailto:Valencia.joel@gmail.com" aria-label="Email" id="footer-email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/valenciajoel" target="_blank" aria-label="LinkedIn" id="footer-linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/JoeelValencia" target="_blank" aria-label="GitHub" id="footer-github"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
